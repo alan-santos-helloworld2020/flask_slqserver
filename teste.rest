@@ -1,0 +1,17 @@
+GET http://localhost:3000
+Content-Type: application/json
+
+{
+
+}
+
+###
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "data":"10/10/2021",
+    "nome":"fulano",
+    "telefone":"(00) 00000-0000",
+    "email":"fulano@gmail.com"
+}
